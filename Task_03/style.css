@@ -1,0 +1,76 @@
+html {
+  font-family: 'Baloo Bhai 2', cursive;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+/* home_page */
+
+/* navbar */
+
+.navbar-nav {
+  margin-left: 32%;
+}
+
+.navbar-brand {
+  font-family: 'Samarkan', sans-serif;
+  font-size: 30px;
+  color: #334257;
+}
+
+.nav-link {
+  font-family: 'Baloo Bhai 2', cursive;
+  color: #334257;
+}
+
+.nav-item {
+  font-size: 23px;
+}
+
+.nav-link:hover {
+  color: #850c3cc4;
+}
+
+.navbar-brand:hover {
+  color: #850c3cc4;
+}
+
+/* image */
+
+#hey {
+  width: 100%;
+  height: 100vh;
+  background: url('pic2.jpg') no-repeat center center/cover;
+  margin: 0px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14%;
+  color: #283342;
+}
+
+/* donate & contact */
+
+
+
+.card {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: #334257 ;
+  color: aliceblue;
+  width: 40%;
+  margin-left: 29%;
+  margin-top: 13%;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  transition: transform .5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
